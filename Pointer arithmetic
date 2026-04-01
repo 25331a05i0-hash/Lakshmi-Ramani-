@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50};
+    int *ptr;
+    int i;
+ptr = arr;  
+  printf("Pointer Arithmetic Demonstration:\n");
+  for(i = 0; i < 5; i++) {
+        printf("Value = %d, Address = %u\n", *ptr, ptr);
+        ptr++;  // Move pointer to next element
+    }
+  return 0;
+}
