@@ -10,7 +10,9 @@ float principal,rate,time,compoundinterest,simpleinterest;
 	scanf("%f",&time);
 simpleinterest=(principal*rate*time)/100;
 compoundinterest=principal*pow((1+rate)/100,time)-principal;
-printf(“\nsimple interest:%.2f\n”,simpleinterest);
-Printf(“\ncompound interest:%.2f\n”,compoundinterest)
+printf("\nsimple interest:%.2f\n",simpleinterest);
+printf("\ncompound interest:%.2f\n",compoundinterest);
+printf("25331A05I0\n");
 return 0;
 }
+
