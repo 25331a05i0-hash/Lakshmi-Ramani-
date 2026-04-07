@@ -9,6 +9,7 @@ sum=sum+digit;
 num=num/10;
 }
 	printf("sum=%d",sum);
+printf("25331A05I0\n");
 return 0;
 }
 
